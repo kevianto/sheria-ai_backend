@@ -16,7 +16,7 @@ export const handleChat = async (req, res) => {
   try {
     const filePath = path.join(
       __dirname,
-      "../utils/The_Constitution_of_Kenya_2010.txt"
+      "../utils/TheConstitutionOfKenya.txt"
     );
     const fullText = await fs.readFile(filePath, "utf-8");
 
